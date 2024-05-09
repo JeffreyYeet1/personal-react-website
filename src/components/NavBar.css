@@ -1,0 +1,35 @@
+.buttonContainer{
+    margin:0;
+    display:flex;
+    margin-bottom: 80vh;
+}
+
+.item{
+    margin-right:5vw;
+    margin-left:5vw;
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.item:hover{
+    color:beige;
+    transition-duration: 0.4s;
+}
+
+.item:after {
+    content: '';
+    position: absolute;
+    left:0;
+    width: 0;
+    height: 3px;
+    bottom: -10px;
+    background-color: black;
+    transition: 0.4s;
+  }
+  
+  .item:hover::after {
+    width:100%;
+  }

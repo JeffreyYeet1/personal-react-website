@@ -1,0 +1,60 @@
+.homePageContainer{
+    position: absolute;
+    margin-top: 7%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    background-color: rgb(333,230,212);
+}
+
+.name{
+    padding: 50px;
+    line-height: 0.7;
+    font-size:125px;
+    font-weight: 400;
+}
+
+.description{
+    position: inherit;
+    padding: 50px;
+    margin-top: 150px;
+    width: 35vw;
+    font-size: 30px;
+    text-align: left;
+}
+
+.misc{
+    position: inherit;
+    padding: 50px;
+    margin-top: 500px;
+    width: 35vw;
+    text-align: left;
+}
+
+.homeicon{
+    width:45px;
+    height:45px;
+}
+
+#linkedinicon{
+    left: 100px;
+}
+
+#githubicon{
+    left:200px;
+}
+
+.profilepic{
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.imageroute{
+    position:inherit;
+    padding:50px;
+    margin-top:450px;
+}
